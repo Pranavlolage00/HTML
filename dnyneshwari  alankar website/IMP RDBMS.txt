@@ -1,0 +1,124 @@
+
+Examintaio:2017
+
+1. What is trigger ? List types of trigger.
+
+2. What is transaction ? List properties of transaction.
+
+3. Define :
+
+(i) growing phase
+(ii) shrinking phase.
+
+4. Define cascadeless schedule.
+
+5. Explain states of transaction with the help of suitable diagram.
+
+6. What is deadlock ? Explain deadlock prevention methods.
+
+7. What is serializability ? Explain view serializability with
+example.
+
+8. Consider the following transactions :
+T1               T2
+Read(z)        Read(x)
+z = z +      100 Read(y)
+Write(z)      y = y – x
+Read(y)       Write(y)
+y = y – 100
+Write(y)
+
+Give two non-serial schedules that are serializable
+
+
+9. [5163]-301 5 P.T.O.
+(c) The following is the list of events in an interleaved execution
+of set T1, T2, T3 and T4 assuming 2PL protocol. Is there
+a deadlock ? If yes, which transactions are involved in
+deadlock ?
+Time     Transaction     Code
+t1           T1        Lock(A, X)
+t2           T2        Lock(B, X)
+t3           T3        Lock(C, X)
+t4           T4        Lock(A, S)
+t5           T1        Lock(C, S)
+t6           T2        Lock(D, S)
+t8           T4        Lock(B, X)
+
+
+10. The following are the log entries at the time of system
+crash :
+[start-transaction, T2]
+[write-item, T1, B, 200]
+[commits, T1]
+[checkpoint]
+[start-transaction, T2]
+[write-item, T2, C, 250]
+[commit, T2]
+[start-transaction, T3]
+[write-item, T3, C, 300]
+[start-transaction, T4]
+[write-item, T4, A, 400]
+[write-item, T3, D, 250]  system crash
+If deferred update technique with checkpoint is used, what
+will be recovery procedure ?
+
+
+11.List and define basic operations used to recover form failure.?
+
+12. what is cursor ? explain various attributes of cursor with example
+
+13. what are the problems in concurrent execution of transaction ?
+
+14. write a short note on checkpoint.?
+
+15. write a short note storage types.
+
+16. Explain how deadlock is recovered.?
+
+17. what is serializablity ? Explain conflict serializablity with example
+
+18. Explain validation based protocol
+
+19. what is differnce between DBMS and RDBMS.?
+
+20. what is timestamp.?
+
+21.Explain % type and % row type with an example.
+
+22.Explain two-phase locking protocol in detail.
+
+23.Explain RDBMS packages in detail.
+
+24.What is exception handling? Explain predefined exceptions.
+
+25.What is function? Explain with an example.
+
+26.What is log? Explain log based recovery.
+
+27.Define lock. State types of lock.
+
+28.List the failure types.
+
+29.Explain remote backup system with the help of a diagram
+
+30.What is schedule ? Explain its types.
+
+31.List RDBMS packages. Explain any one in detail.
+
+32.Define :
+(i) Upgrading
+(ii) Downgrading
+
+33.Define :
+(i) Redo
+(ii) Undo.
+
+34.Define :
+i) Logical error
+ii) System error.
+
+35.Explain advantages and disadvantages of RDBMS.
+
+36.Explain immediate database modification technique in detail with
+example.

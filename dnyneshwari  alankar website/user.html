@@ -1,0 +1,25 @@
+<html>
+<body background="form1.jpg">
+     <form>
+Enter username  : 
+    <input type="text" id="t1" align="center"> <br><br>
+Enter password  : 
+    <input type="password" id="t2" > <br>
+<input type="button" value="Login" onclick="validate()">
+
+<a href="index.html"><input type="button" value="BACK"></a>
+   </form>
+      </body>
+</html>
+                <script>
+
+function  validate()
+{
+    var u=document.getElementById("t1").value;
+     var p=document.getElementById("t2").value;
+  if(u=="xyz" && p=="123")
+     alert("Login successfully......");
+else
+     alert("invalid user or password.....");
+}
+   </script>

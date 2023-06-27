@@ -1,0 +1,17 @@
+<marquee direction="up" scrollamount="8">
+ <img src="gold1.jpeg" width="100%">
+   <img src="gold2.jpeg" width="100%">
+    <img src="gold3.jpeg" width="100%">
+    <img src="gold4.jpeg" width="100%">
+    <img src="gold5.jpeg" width="100%">
+    <img src="gold6.jpeg" width="100%">
+    <img src="gold7.jpeg" width="100%">
+    <img src="sil1.avif" width="100%">
+     <img src="sil2.avif" width="100%">
+    <img src="sil3.avif" width="100%">
+    <img src="sil4.jpg" width="100%">
+    <img src="sil5.jpg" width="100%">
+    <img src="sil6.jpg" width="100%">
+    <img src="sil7.jpg" width="100%"> 
+</marquee>
+dnyneshwarijewells.coolpage.biz

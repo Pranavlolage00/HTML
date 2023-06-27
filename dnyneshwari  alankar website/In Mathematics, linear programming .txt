@@ -1,0 +1,92 @@
+In Mathematics, linear programming is a method of optimising operations with some constraints. The main objective of linear programming is to maximize or minimize the numerical value. 
+The term “linear programming” consists of two words as linear and programming. The word “linear” defines the relationship between multiple variables with degree one. The word “programming” defines the process of selecting the best solution from various alternatives.
+The term “linear programming” consists of two words as linear and programming. The word “linear” defines the relationship between multiple variables with degree one. The word “programming” defines the process of selecting the best solution from various alternatives.
+etc
+
+The basic components of the LP are as follows:
+
+    Decision Variables
+    Constraints
+    Data
+    Objective Functions
+
+
+
+
+
+    Transportation Model is a special case of LPP(Linear Programming Problem) in which the main objective is to transport a product from various sources to various destinations at total minimum cost.
+
+    In Transportation Models, the sources and destinations are known, the supply and demand at each source and destinations are also known.
+
+    It is designed to find the best arrangement for transportation such that the transportation cost is minimum.
+
+For example:
+
+
+
+    Consider three companies (Company1, Company2 and Company3) which produce mobile phones and are located in different regions.
+
+    Similarly, consider three cities (namely CityA, CityB & CityC) where the mobile phones are transported.
+
+    The companies where mobile phones are available are known as sources and the cities where mobile phones are transported are called destinations.
+
+
+
+
+
+
+The objective function is used across industry, commerce, management, applied sciences to solve numerous real-life problems. Let us learn more about solving the objective function, its theorems, applications, with the help of examples, 
+
+The objective function is needed to solve the optimization problems.
+
+Objective function is prominently used to represent and solve the optimization problems of linear programming.
+
+
+
+
+
+
+
+
+
+divide the number by the whole and multiply by 100. Hence, the percentage means, a part per hundred. The word per cent means per 100. It is represented by the symbol “%”
+
+
+
+
+
+
+
+
+The North West corner rule is a technique for calculating an initial feasible solution for a transportation problem. In this method, we must select basic variables from the upper left cell, i.e., the North-west corner cell.
+
+Select the upper-left cell, i.e., the north-west corner cell of the transportation matrix and assign the minimum value of supply or demand, i.e., min(supply, demand).
+
+ Subtract the above minimum value from Oi and Di of the corresponding row and column. Here, we may get three possibilities, as given below.
+
+If the supply is equal to 0, strike that row and move down to the next cell.
+
+If the demand equals 0, strike that column and move right to the next cell.
+
+If supply and demand are 0, then strike both row and column and move diagonally to the next cell.
+
+Step 3: Repeat these steps until all the supply and demand values are 0.
+Read more:
+
+
+
+
+
+
+
+
+
+
+In order to calculate LPP, one must follow the following steps:
+
+    Formulate the LP problem.
+    Construct a graph and then plot the various constraint lines.
+    Ascertain the valid side of all constraint lines.
+    Identify the region of feasible solution.
+    Plot the objective function.
+    Finally, find out the optimum point.
